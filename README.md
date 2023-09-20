@@ -28,108 +28,106 @@
 ## **Test cases for CART PAGE**
  
 #### TC1. 
-**TITLE:** 
+**Title:** 
 CART PAGE visual verification&validation
 
-**PRECONDITIONS:** 
+**Preconditions:** 
    1. random products are added to the CART
    2. CART PAGE is open  
 
-**STEPS:** 
+**Steps:** 
 the user sees all the products, buttons, fields
 
-**EXPECTED RESULTS:** 
+**Expected results:** 
 all the products, buttons, fields are right
 
 
 #### TC2.
-**TITLE:** 
+**Title:** 
 verify product's picture on CART PAGE 
 
-**PRECONDITIONS:** 
+**Preconditions:** 
    1. random products are added to the CART
    2. CART PAGE is open 
 
-**STEPS:** 
+**Steps:** 
 the user clicks on the product's picture
 
-**EXPECTED RESULTS:**
+**Expected results:**
 product's page is displayed
 
-3.
-           TITLE: verify product's name on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
-                  CART PAGE is open  
-           STEPS: the user clicks on the product's name
-EXPECTED RESULTS: product's page is displayed
+#### TC4.
+**Title:** 
+modify the QUANTITY field by typing on CART PAGE 
 
-4.
-           TITLE: modify the QUANTITY field by typing on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
-                  CART PAGE is open  
-           STEPS: the user clicks on the product's quantity and types the new quantity
-                  the user clicks on UPDATE SHOPPING CART
-EXPECTED RESULTS: product's QUANTITY, TOTAL, CART TOTALS fields are updated with the right values 
+**Preconditions:** 
+   1. random products are added to the CART
+   2. CART PAGE is open  
+**Steps:** 
+   1. the user clicks on the product's quantity and types the new quantity
+   2. the user clicks on UPDATE SHOPPING CART
+**Expected results:** product's QUANTITY, TOTAL, CART TOTALS fields are updated with the right values 
 
-5.
-           TITLE: modify the QUANTITY field by clicking + & - on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
+#### TC5.
+**Title:** modify the QUANTITY field by clicking + & - on CART PAGE 
+**Preconditions:** random products are added to the CART
                   CART PAGE is open  
-           STEPS: the user clicks on the product's quantity and clicks on +
+**Steps:** the user clicks on the product's quantity and clicks on +
                   the user clicks on UPDATE SHOPPING CART
                   the user clicks on the product's quantity and clicks on -
                   the user clicks on UPDATE SHOPPING CART
-EXPECTED RESULTS: product's QUANTITY, TOTAL, CART TOTALS fields are updated with the right values
 
-6.
-           TITLE: Remove this item button on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
-                  CART PAGE is open  
-           STEPS: the user clicks on "Remove this item" button of one product
-EXPECTED RESULTS: the CART PAGE is reloaded, the product is removed, CART TOTALS, Cart Icon is updated and a message(undo) is displayed
+**Expected results:** product's QUANTITY, TOTAL, CART TOTALS fields are updated with the right values
 
-7.
-           TITLE: CONTINUE SHOPPING button on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
+#### TC6.
+**Title:** Remove this item button on CART PAGE 
+**Preconditions:** random products are added to the CART
                   CART PAGE is open  
-           STEPS: the user clicks on CONTINUE SHOPPING button
-EXPECTED RESULTS: products page is displayed
+**Steps:** the user clicks on "Remove this item" button of one product
+**Expected results:** the CART PAGE is reloaded, the product is removed, CART TOTALS, Cart Icon is updated and a message(undo) is displayed
 
-8.
-           TITLE: APPLY COUPON button on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
+#### TC7.
+**Title:** CONTINUE SHOPPING button on CART PAGE 
+**Preconditions:** random products are added to the CART
                   CART PAGE is open  
-           STEPS: the user types a valid cupon code in the field
+**Steps:** the user clicks on CONTINUE SHOPPING button
+**Expected results:** products page is displayed
+
+#### TC8.
+**Title:** APPLY COUPON button on CART PAGE 
+**Preconditions:** random products are added to the CART
+                  CART PAGE is open  
+**Steps:** the user types a valid cupon code in the field
                   the user clicks on APPLY COUPON button
-EXPECTED RESULTS: a discount is made and CART TOTALS is updated
+**Expected results:** a discount is made and CART TOTALS is updated
 
-9.
-           TITLE: PROCEED TO CHECKOUT button on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
+#### TC9.
+**Title:** PROCEED TO CHECKOUT button on CART PAGE 
+**Preconditions:** random products are added to the CART
                   CART PAGE is open  
-           STEPS: the user clicks on PROCEED TO CHECKOUT button
-EXPECTED RESULTS: the checkout page is displayed
+**Steps:** the user clicks on PROCEED TO CHECKOUT button
+**Expected results:** the checkout page is displayed
 
 
-10.
-           TITLE: CLEAR SHOPPING CART button on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
+#### TC10.
+**Title:** CLEAR SHOPPING CART button on CART PAGE 
+**Preconditions:** random products are added to the CART
                   CART PAGE is open  
-           STEPS: the user clicks on CLEAR SHOPPING CART button
-EXPECTED RESULTS: all the products are removed 
+**Steps:** the user clicks on CLEAR SHOPPING CART button
+**Expected results:** all the products are removed 
 
-11.
-           TITLE: modify the QUANTITY field by typing a large number on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
+#### TC11.
+**Title:** modify the QUANTITY field by typing a large number on CART PAGE 
+**Preconditions:** random products are added to the CART
                   CART PAGE is open  
-           STEPS: the user clicks on the product's quantity and types a 20 digits number
+**Steps:** the user clicks on the product's quantity and types a 20 digits number
                   the user clicks on UPDATE SHOPPING CART
-EXPECTED RESULTS: an error message is displayed
+**Expected results:** an error message is displayed
 
-12.
-           TITLE: APPLY COUPON button with an invalid coupon code on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
+#### TC12.
+**Title:** APPLY COUPON button with an invalid coupon code on CART PAGE 
+**Preconditions:** random products are added to the CART
                   CART PAGE is open  
-           STEPS: the user types a invalid cupon code in the field
+**Steps:** the user types a invalid cupon code in the field
                   the user clicks on APPLY COUPON button
-EXPECTED RESULTS: an error message is displayed
+**Expected results:** an error message is displayed
