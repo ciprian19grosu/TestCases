@@ -1,15 +1,15 @@
 # TestCases
---------
 
-**Test design for Cart Page**
----------
-## Visual
----------
+
+**Test design for a random Cart Page**
+
+### Visual
+
 - verify that the correct products ( photo, price, quantity, total) are displayed on the page 
 - verify that all the buttons are displayed in the right place
----------
-## Valid
---------
+
+### Valid
+
 - verify the QUANTITY field(s) are working by changing the value ( typing or using +,-)
 - verify the UPDATE SHOPPING CART button
 - verify the TOTAL, CART TOTALS, Cart Icon values 
@@ -19,7 +19,7 @@
 - verify the PROCEED TO CHECKOUT button
 - verify the CLEAR SHOPPING CART button
 
-## Invalid
+### Invalid
 
 - verify with a big quantity
 - verify with an invalid coupon code
@@ -27,13 +27,13 @@
 
 ## **Test cases**
  
-1. TITLE: CART PAGE visual verification&validation
-   PRECONDITIONS: random products are added to the CART
-                  CART PAGE is open  
-   STEPS: the user sees all the products, buttons, fields
-EXPECTED RESULTS: all the products, buttons, fields are right
+TC1. TITLE: CART PAGE visual verification&validation
+     PRECONDITIONS: random products are added to the CART
+                    CART PAGE is open  
+     STEPS: the user sees all the products, buttons, fields
+     EXPECTED RESULTS: all the products, buttons, fields are right
 
-2.
+TC2.
            TITLE: product's picture on CART PAGE 
    PRECONDITIONS: random products are added to the CART
                   CART PAGE is open  
