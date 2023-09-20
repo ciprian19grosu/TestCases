@@ -28,14 +28,14 @@
 ## **Test cases**
  
 #### TC1. 
-** TITLE:** 
+**TITLE:** 
    - CART PAGE visual verification&validation
-** PRECONDITIONS:** 
+**PRECONDITIONS:** 
    - random products are added to the CART
    - CART PAGE is open  
-** STEPS:** 
+**STEPS:** 
    - the user sees all the products, buttons, fields
-** EXPECTED RESULTS:** 
+**EXPECTED RESULTS:** 
    - all the products, buttons, fields are right
 
 TC2.
