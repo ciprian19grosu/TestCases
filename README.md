@@ -1,7 +1,7 @@
 # Test Case Samples
 
 
-## **Test design for a random Cart Page**
+## **Test design for a random Cart Page of an ecomerce website**
 
 ### Visual
 
@@ -25,7 +25,7 @@
 - verify with an invalid coupon code
 
 
-## **Test cases**
+## **Test cases for CART PAGE**
  
 #### TC1. 
 **TITLE:** 
@@ -40,24 +40,31 @@
 
 **EXPECTED RESULTS:** 
     all the products, buttons, fields are right
-    
 
-TC2.
-           TITLE: product's picture on CART PAGE 
-   PRECONDITIONS: random products are added to the CART
-                  CART PAGE is open  
-           STEPS: the user clicks on the product's picture
-EXPECTED RESULTS: product's page is displayed
+
+#### TC2.
+**TITLE:** 
+verify product's picture on CART PAGE 
+
+**PRECONDITIONS:** 
+1.random products are added to the CART
+2.CART PAGE is open 
+
+**STEPS:** 
+the user clicks on the product's picture
+
+**EXPECTED RESULTS:**
+product's page is displayed
 
 3.
-           TITLE: product's name on CART PAGE 
+           TITLE: verify product's name on CART PAGE 
    PRECONDITIONS: random products are added to the CART
                   CART PAGE is open  
            STEPS: the user clicks on the product's name
 EXPECTED RESULTS: product's page is displayed
 
 4.
-           TITLE: modify the QUANTITY field by typing in CART PAGE 
+           TITLE: modify the QUANTITY field by typing on CART PAGE 
    PRECONDITIONS: random products are added to the CART
                   CART PAGE is open  
            STEPS: the user clicks on the product's quantity and types the new quantity
@@ -65,7 +72,7 @@ EXPECTED RESULTS: product's page is displayed
 EXPECTED RESULTS: product's QUANTITY, TOTAL, CART TOTALS fields are updated with the right values 
 
 5.
-           TITLE: modify the QUANTITY field by clicking + & - in CART PAGE 
+           TITLE: modify the QUANTITY field by clicking + & - on CART PAGE 
    PRECONDITIONS: random products are added to the CART
                   CART PAGE is open  
            STEPS: the user clicks on the product's quantity and clicks on +
@@ -112,7 +119,7 @@ EXPECTED RESULTS: the checkout page is displayed
 EXPECTED RESULTS: all the products are removed 
 
 11.
-           TITLE: QUANTITY field by typing a large number in CART PAGE 
+           TITLE: modify the QUANTITY field by typing a large number on CART PAGE 
    PRECONDITIONS: random products are added to the CART
                   CART PAGE is open  
            STEPS: the user clicks on the product's quantity and types a 20 digits number
