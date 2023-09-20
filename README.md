@@ -5,24 +5,24 @@
 ---------
 ## Visual
 ---------
--verify that the correct products ( photo, price, quantity, total) are displayed on the page 
--verify that all the buttons are displayed in the right place
+- verify that the correct products ( photo, price, quantity, total) are displayed on the page 
+- verify that all the buttons are displayed in the right place
 ---------
 ## Valid
 --------
--verify the QUANTITY field(s) are working by changing the value ( typing or using +,-)
--verify the UPDATE SHOPPING CART button
--verify the TOTAL, CART TOTALS, Cart Icon values 
--verify the "Remove this item" button
--verify the CONTINUE SHOPPING button
--verify the APPLY COUPON button
--verify the PROCEED TO CHECKOUT button
--verify the CLEAR SHOPPING CART button
+- verify the QUANTITY field(s) are working by changing the value ( typing or using +,-)
+- verify the UPDATE SHOPPING CART button
+- verify the TOTAL, CART TOTALS, Cart Icon values 
+- verify the "Remove this item" button
+- verify the CONTINUE SHOPPING button
+- verify the APPLY COUPON button
+- verify the PROCEED TO CHECKOUT button
+- verify the CLEAR SHOPPING CART button
 
 ## Invalid
 
--verify with a big quantity
--verify with an invalid coupon code
+- verify with a big quantity
+- verify with an invalid coupon code
 
 
 ## **Test cases**
