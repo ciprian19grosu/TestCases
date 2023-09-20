@@ -1,4 +1,4 @@
-# TestCases
+# Test Case Samples
 
 
 ## **Test design for a random Cart Page**
@@ -27,12 +27,16 @@
 
 ## **Test cases**
  
-TC1. 
-* TITLE: CART PAGE visual verification&validation
-* PRECONDITIONS: * random products are added to the CART
-                 * CART PAGE is open  
-* STEPS: the user sees all the products, buttons, fields
-* EXPECTED RESULTS: all the products, buttons, fields are right
+#### TC1. 
+** TITLE:** 
+   - CART PAGE visual verification&validation
+** PRECONDITIONS:** 
+   - random products are added to the CART
+   - CART PAGE is open  
+** STEPS:** 
+   - the user sees all the products, buttons, fields
+** EXPECTED RESULTS:** 
+   - all the products, buttons, fields are right
 
 TC2.
            TITLE: product's picture on CART PAGE 
