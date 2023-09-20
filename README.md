@@ -29,14 +29,18 @@
  
 #### TC1. 
 **TITLE:** 
-   - CART PAGE visual verification&validation
+    CART PAGE visual verification&validation
+
 **PRECONDITIONS:** 
    1. random products are added to the CART
    2. CART PAGE is open  
+
 **STEPS:** 
-   - the user sees all the products, buttons, fields
+    the user sees all the products, buttons, fields
+
 **EXPECTED RESULTS:** 
-   - all the products, buttons, fields are right
+    all the products, buttons, fields are right
+    
 
 TC2.
            TITLE: product's picture on CART PAGE 
