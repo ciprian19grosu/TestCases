@@ -27,7 +27,7 @@
 
 ## **Test cases for CART PAGE**
  
-#### TC1. 
+### TC1. 
 **Title:** 
 CART PAGE visual verification&validation
 
@@ -42,7 +42,7 @@ the user sees all the products, buttons, fields
 all the products, buttons, fields are right
 
 
-#### TC2.
+### TC2.
 **Title:** 
 verify product's picture on CART PAGE 
 
@@ -56,7 +56,7 @@ the user clicks on the product's picture
 **Expected results:**
 product's page is displayed
 
-#### TC4.
+### TC4.
 **Title:** 
 modify the QUANTITY field by typing on CART PAGE 
 
@@ -71,7 +71,7 @@ modify the QUANTITY field by typing on CART PAGE
 **Expected results:** 
 product's QUANTITY, TOTAL, CART TOTALS fields are updated with the right values 
 
-#### TC5.
+### TC5.
 **Title:** 
 modify the QUANTITY field by clicking + & - on CART PAGE 
 
@@ -88,7 +88,7 @@ modify the QUANTITY field by clicking + & - on CART PAGE
 **Expected results:** 
 product's QUANTITY, TOTAL, CART TOTALS fields are updated with the right values
 
-#### TC6.
+### TC6.
 **Title:** 
 "Remove this item" button on CART PAGE 
 
@@ -102,7 +102,7 @@ the user clicks on "Remove this item" button of one product
 **Expected results:** 
 the CART PAGE is reloaded, the product is removed, CART TOTALS, Cart Icon is updated and a message(undo) is displayed
 
-#### TC7.
+### TC7.
 **Title:** 
 CONTINUE SHOPPING button on CART PAGE
 
@@ -116,7 +116,7 @@ the user clicks on CONTINUE SHOPPING button
 **Expected results:** 
 products page is displayed
 
-#### TC8.
+### TC8.
 **Title:** 
 APPLY COUPON button on CART PAGE
 
@@ -131,7 +131,7 @@ APPLY COUPON button on CART PAGE
 **Expected results:** 
 a discount is made and CART TOTALS is updated
 
-#### TC9.
+### TC9.
 **Title:** 
 PROCEED TO CHECKOUT button on CART PAGE 
 
@@ -145,7 +145,7 @@ the user clicks on PROCEED TO CHECKOUT button
 the checkout page is displayed
 
 
-#### TC10.
+### TC10.
 **Title:**
 CLEAR SHOPPING CART button on CART PAGE
 
@@ -159,7 +159,7 @@ the user clicks on CLEAR SHOPPING CART button
 **Expected results:** 
 all the products are removed 
 
-#### TC11.
+### TC11.
 **Title:** 
 modify the QUANTITY field by typing a large number on CART PAGE 
 
@@ -174,7 +174,7 @@ modify the QUANTITY field by typing a large number on CART PAGE
 **Expected results:** 
 an error message is displayed
 
-#### TC12.
+### TC12.
 **Title:** 
 APPLY COUPON button with an invalid coupon code on CART PAGE
 
